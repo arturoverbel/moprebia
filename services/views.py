@@ -6,7 +6,4 @@ def index(request):
 
 def getData(request, frecuencia, porcentaje):
 
-
-
-
     return HttpResponse("Se recibe frecu " + frecuencia + " y " + porcentaje)
